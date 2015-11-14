@@ -1,3 +1,4 @@
+// Issue is that Greeter is not publically exported. Replace 'use' with 'pub use' to fix.
 use detail::Greeter;
 
 mod detail {
